@@ -19,11 +19,8 @@ A entrada consiste de uma única linha que contém dois inteiros H e P (1 ≤ H,
 Saída
 Seu programa deve produzir uma única linha com um número racional representando o número médio de coxinhas consumidas pelos participantes. O resultado deve ser escrito como um número racional com exatamente dois dígitos após o ponto decimal, arredondado se necessário.
 
- 
-Exemplos de Entrada	  Exemplos de Saída
-10 90			            0.11
-840 11			          76.36
-1 50			            0.02
+Exemplos de Entrada: 10 90	- 840 11	- 1 50			            
+Exemplos de Saída: 0.11 - 76.36 - 0.02
 
 =================================================
 
@@ -37,10 +34,8 @@ O arquivo de entrada contém dois inteiros. O primeiro é o tempo gasto na viage
 Saída
 Imprima a quantidade de litros necessária para realizar a viagem, com três dígitos após o ponto decimal
 
- 
-Exemplo de Entrada	  Exemplo de Saída
-10 85			            70.833
-22 67			            122.833
+Exemplo de Entrada: 10 85	- 22 67			            
+Exemplo de Saída: 70.833 - 122.833
 
 =================================================
 
@@ -50,11 +45,8 @@ Há um país denominado Lilipute, todos os habitantes ficam felizes em pagar seu
 
 Você terá desafio de ler um valor com duas casas decimais, equivalente ao salário de uma pessoa de Libs. Em seguida, calcule e mostre o valor que esta pessoa deve pagar de Imposto de Renda, segundo a tabela abaixo.
 
-Renda			        Imposto de Renda
-0 - 2000		      0%
-2001,01 - 3000		8%
-3001,01 - 4500		18%
-acima de 4500		  28%
+Renda: 0 - 2000	/ 2001,01 - 3000	/ 3001,01 - 4500	/ acima de 4500		  
+Imposto de Renda: 0% / 8% / 18% / 28%
 
 Lembre que, se o salário for R$ 3002.00, a taxa que incide é de 8% apenas sobre R$ 1000.00, pois a faixa de salário que fica de R$ 0.00 até R$ 2000.00 é isenta de Imposto de Renda. No exemplo fornecido (abaixo), a taxa é de 8% sobre R$ 1000.00 + 18% sobre R$ 2.00, o que resulta em R$ 80.36 no total. O valor deve ser impresso com duas casas decimais.
 
